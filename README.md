@@ -23,6 +23,6 @@ python train_stage2.py --dataset mini --shot 1 --save-path ./save/mini-stage2-1s
 
 bash run_training_with_logging_cifarfs_5.sh
 
-To evaluate on 5-way 1-shot and 5-way 5-shot CIFAR-FS:<br/>
+To evaluate on 5-way 1-shot and 5-way 5-shot MiniImageNet:<br/>
 
 python test.py --dataset mini --shot 1 --save-path ./save/mini-stage3-1s
